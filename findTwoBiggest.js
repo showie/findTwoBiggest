@@ -16,7 +16,7 @@ var util = {
   }
   
   for (i=2;i<data.length;i++) {
-  	if (data[i] > a && data[i] > b) {
+  	if (data[i] > a) {
     	 b = a;
        a = data[i];
     } else if (data[i] > b) {
